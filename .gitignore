@@ -1,1 +1,7 @@
+# distribution/packaging
+build/
+dist/
+*.egg-info/
+
+# environments
 venv/
