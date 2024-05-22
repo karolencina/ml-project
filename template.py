@@ -1,10 +1,13 @@
+# This script creates the project structure for the ml-project template. 
+# We could have used cookiecutter to make it easier but we wanted to show how to create a project structure using python script
+
 import os
 from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(ascitime)s]: %(message)s')
 
-project_name = 'ml-project'
+project_name = 'app'
 
 list_of_files = [
     ".github/workflows/.gitkeep",
