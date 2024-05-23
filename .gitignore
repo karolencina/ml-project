@@ -5,3 +5,8 @@ dist/
 
 # environments
 venv/
+
+# logs
+logs/
+
+__pycache__/
